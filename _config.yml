@@ -78,13 +78,13 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
     url: https://twitter.com/controlsoftagro
+  - title: facebook
+    url: https://pt-br.facebook.com/ControlSoft
   - title: instagran
     url: https://www.instagram.com/controlsoft/?hl=pt
   - title: github
-    url: https://github.com/ControlSoft-Labs
+    url: http://labs.controlsoft.com.br/
 
 # Postal address (add as many lines as necessary)
 address:
