@@ -9,9 +9,9 @@ description: "Site da ControlSoft para divulgação de conteúdos e projetos de 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
+- name: Amanda
+  pic: deva
+  position: Testadora
   social:
     - title: twitter
       url: #
@@ -20,27 +20,115 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+- name: Anderson
+  pic: dev
+  position: Desenvolvedor
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: linkedin
+    - title: stack-overflow
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Athauã
+  pic: dev
+  position: Desenvolvedor
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: google-plus
+    - title: stack-overflow
       url: #
+
+- name: Carine
+  pic: deva
+  position: Testadora
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Charles
+  pic: dev
+  position: Testador
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Érica
+  pic: deva
+  position: Desenvolvedora
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Everson
+  pic: dev
+  position: Desenvolvedor
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Fabio
+  pic: dev
+  position: Desenvolvedor
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Lucinei
+  pic: dev
+  position: Desenvolvedor
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Magno
+  pic: dev
+  position: Desenvolvedor
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: stack-overflow
+      url: #
+
+- name: Patrick
+pic: dev
+position: Desenvolvedor
+social:
+  - title: twitter
+    url: #
+  - title: facebook
+    url: #
+  - title: stack-overflow
+    url: #
 
 - name: Kay Garland
   pic: 1

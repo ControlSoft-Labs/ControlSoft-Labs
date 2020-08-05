@@ -1,5 +1,5 @@
 ---
-title: Startup Framework
+title: Scaffolding Node
 subtitle: Website Design
 layout: default
 modal-id: 5
