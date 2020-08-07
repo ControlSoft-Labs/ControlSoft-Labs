@@ -8,15 +8,15 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
+            {% for item in site.projects %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal{{ item.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover"></div>
-                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                        <img src="img/portfolio/{{ item.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <h4>{{ item.title }}</h4>
+                        <p class="text-muted">{{ item.subtitle }}</p>
                         <div style="display: flex; text-align: center; padding: 5px; padding-top: 10px">
                             <div style="width: 25%;"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEwLjUgMTYuMDY1bDYuNDg5IDMuOTI0LTEuNzIyLTcuMzk2TDIxIDcuNjE3bC03LjU1LS42NDJMMTAuNSAwIDcuNTUgNi45NzUgMCA3LjYxN2w1LjczMyA0Ljk3Ni0xLjcyMiA3LjM5NiA2LjQ4OS0zLjkyNHoiIGZpbGw9IiMwMDAiLz48L3N2Zz4=" /> 285 </div> 
                             <div style="width: 25%;"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjkiIGhlaWdodD0iMTMiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xNC41IDEwLjk5NUE0LjQ5OSA0LjQ5OSAwIDEwMTQuNSAyYTQuNDk5IDQuNDk5IDAgMTAwIDguOTk1eiIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjMiLz48cGF0aCBmaWxsPSIjMDAwIiBzdHJva2U9IiMwMDAiIGQ9Ik0xOS41IDQuNDk4aDl2My45OThoLTl6TS41IDQuNDk4aDl2My45OThoLTl6Ii8+PC9zdmc+" /> 25 </div> 
