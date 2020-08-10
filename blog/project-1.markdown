@@ -1,5 +1,5 @@
 ---
-title: ACBR
+title: LBLABB asd
 subtitle: Megadraft is a Rich Text editor built on top of Facebook's Draft.JS featuring a nice default base of components and extensibility.
 layout: default
 modal-id: 1
