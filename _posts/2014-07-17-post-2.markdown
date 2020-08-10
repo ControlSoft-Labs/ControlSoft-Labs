@@ -1,7 +1,7 @@
 ---
 type: post
-title: Docker Firebird
-subtitle: Website Design
+title: Programação usual e funcional utilizando Delphi
+subtitle: Delphi
 layout: default
 modal-id: 2
 date: 2014-07-17

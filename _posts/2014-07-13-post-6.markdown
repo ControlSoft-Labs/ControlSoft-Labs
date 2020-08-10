@@ -1,7 +1,7 @@
 ---
 type: post
-title: Scaffolding Delphi
-subtitle: Graphic Design
+title: Delphi 10.4 traz grandes novidades aos desenvolvedores
+subtitle: Delphi
 layout: default
 modal-id: 6
 date: 2014-07-15

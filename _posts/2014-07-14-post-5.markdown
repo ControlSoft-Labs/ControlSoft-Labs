@@ -1,7 +1,7 @@
 ---
 type: post
-title: Scaffolding Node
-subtitle: Website Design
+title: Reflections e RTTI, quando usalos?
+subtitle: Delphi
 layout: default
 modal-id: 5
 date: 2014-07-14
