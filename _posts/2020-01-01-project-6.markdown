@@ -4,6 +4,7 @@ title: Firebird
 subtitle: Firebird server, client and tools
 link: https://github.com/ControlSoft-Labs/firebird
 img: firebird.png
+language: C++
 star: 0
 commits: 0
 fork: 117
