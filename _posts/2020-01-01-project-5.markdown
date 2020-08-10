@@ -1,7 +1,7 @@
 ---
 type: project
 title: Delphi Chromium Embeded 3
-subtitle: Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.
+subtitle: A simple framework for embedding Chromium-based browsers in other applications.
 link: https://github.com/ControlSoft-Labs/dcef3
 img: node.png
 language: Pascal
