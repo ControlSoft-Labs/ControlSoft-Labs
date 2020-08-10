@@ -3,6 +3,7 @@ type: project
 title: Firebird
 subtitle: Firebird server, client and tools
 link: https://github.com/ControlSoft-Labs/firebird
+modal-id: 6
 img: firebird.png
 language: C++
 star: 0

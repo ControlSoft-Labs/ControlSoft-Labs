@@ -3,6 +3,7 @@ type: project
 title: Delphi Chromium Embeded 3
 subtitle: A framework embedding Chromium-based browsers in other applications.
 link: https://github.com/ControlSoft-Labs/dcef3
+modal-id: 5
 img: node.png
 language: Pascal
 star: 0

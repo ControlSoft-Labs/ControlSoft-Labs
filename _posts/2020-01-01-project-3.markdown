@@ -3,6 +3,7 @@ type: project
 title: Boss
 subtitle: Dependency Manager for Delphi
 link: https://github.com/ControlSoft-Labs/boss
+modal-id: 3
 img: firebird.png
 language: Go
 star: 0

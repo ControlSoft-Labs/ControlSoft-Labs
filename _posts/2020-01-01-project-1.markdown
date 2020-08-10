@@ -3,6 +3,7 @@ type: project
 title: ACBR
 subtitle: Mirror não oficial do Projeto ACBr
 link: https://github.com/ControlSoft-Labs/ACBr
+modal-id: 1
 img: acbr.png
 language: Pascal
 star: 0
