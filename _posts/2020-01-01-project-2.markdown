@@ -1,7 +1,8 @@
 ---
 type: project
-title: das asd asd
-subtitle: Megadraft is a Rich Text editor built on top of Facebook's Draft.JS featuring a nice default base of components and extensibility.
+title: Programacao Funcional
+subtitle: Exemplo de programação funcional e Delphi
+link: https://github.com/ControlSoft-Labs/ProgramacaoFuncional
 layout: default
 modal-id: 2
 date: 2014-07-17

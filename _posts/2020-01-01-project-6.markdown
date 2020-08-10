@@ -1,15 +1,16 @@
 ---
 type: project
-title: ccccccc
-subtitle: Megadraft is a Rich Text editor built on top of Facebook's Draft.JS featuring a nice default base of components and extensibility.
+title: Firebird
+subtitle: Firebird server, client and tools
+link: https://github.com/ControlSoft-Labs/firebird
 layout: default
 modal-id: 6
-img: delphi.png
-thumbnail: delphi.png
+img: firebird.png
+thumbnail: firebird.png
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
-category: Web Development
+category: Conector
 description: 'perferendis doloribus asperiores repellat .'
 
 ---

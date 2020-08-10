@@ -1,7 +1,8 @@
 ---
 type: project
-title: LBLABB asd
-subtitle: Megadraft is a Rich Text editor built on top of Facebook's Draft.JS featuring a nice default base of components and extensibility.
+title: ACBR
+subtitle: Mirror não oficial do Projeto ACBr
+link: https://github.com/ControlSoft-Labs/ACBr
 layout: default
 modal-id: 1
 date: 2014-07-18
