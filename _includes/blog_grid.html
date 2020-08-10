@@ -8,37 +8,23 @@
           </div>
       </div>
       <div class="row">
-      {% for item in site.projects %}
-          <div class="col-md-4 col-sm-6 portfolio-item">
-              <a href="#portfolioModal{{ item.modal-id }}" class="portfolio-link" data-toggle="modal">
-                  <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                          <i class="fa fa-plus fa-3x"></i>
-                      </div>
-                  </div>
-                  <!--img src="../img/blog/{{ item.thumbnail }}" class="img-responsive img-centered" alt=""-->
-              </a>
-              <div class="portfolio-caption">
-                  <h4>{{ item.title }}</h4>
-                  <p class="text-muted">{{ item.subtitle }}</p>
-              </div>
-          </div>
-      {% endfor %}
-
-      {% for item in projects %}
-        <h3>{{ item }} a</h3>
-      {% endfor %}
-
-      {% for item in site %}
-        <h3>{{ item }} b</h3>
-      {% endfor %}
-
-      {% for item in site.blog %}
-        <h3>{{ item }} c</h3>
-      {% endfor %}
-
-      {% for item in site.blog.projects %}
-        <h3>{{ item }} d</h3>
+      {% for item in site.posts %}
+          {% if type == "project" %}
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal{{ item.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    <!--img src="../img/blog/{{ item.thumbnail }}" class="img-responsive img-centered" alt=""-->
+                </a>
+                <div class="portfolio-caption">
+                    <h4>{{ item.title }}</h4>
+                    <p class="text-muted">{{ item.subtitle }}</p>
+                </div>
+            </div>
+          {% endif %}
       {% endfor %}
 
       </div>

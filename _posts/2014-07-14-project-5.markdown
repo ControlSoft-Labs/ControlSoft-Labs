@@ -1,4 +1,5 @@
 ---
+type: post
 title: Scaffolding Node
 subtitle: Website Design
 layout: default

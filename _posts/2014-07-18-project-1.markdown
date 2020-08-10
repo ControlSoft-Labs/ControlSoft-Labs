@@ -1,4 +1,5 @@
 ---
+type: post
 title: ACBR
 subtitle: Website Design
 layout: default

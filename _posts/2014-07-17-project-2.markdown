@@ -1,4 +1,5 @@
 ---
+type: post
 title: Docker Firebird
 subtitle: Website Design
 layout: default
