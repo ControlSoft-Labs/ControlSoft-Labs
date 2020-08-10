@@ -1,14 +1,14 @@
 ---
 type: project
-title: ACBR
-subtitle: Mirror não oficial do Projeto ACBr
-link: https://github.com/ControlSoft-Labs/ACBr
-modal-id: 1
-img: acbr.png
+title: Delphi Chromium Embeded 3
+subtitle: A framework embedding Chromium-based browsers in other applications.
+link: https://github.com/ControlSoft-Labs/dcef3
+modal-id: 5
+img: node.png
 language: Pascal
 star: 0
 commits: 0
-fork: 6 
+fork: 169 
 issues: 0
 
 ---
