@@ -1,3 +1,20 @@
 ---
 layout: blog
 ---
+
+<div class="home">
+
+  <h1>Projects</h1>
+
+  <ul class="posts">
+    {% for item in site.projects %}
+      <li>
+        <span class="post-date">{{ item.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
