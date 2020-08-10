@@ -3,15 +3,11 @@ type: project
 title: Firebird Docker
 subtitle: Firebird Docker file
 link: https://github.com/ControlSoft-Labs/firebird-docker
-layout: default
-modal-id: 4
-date: 2014-07-15
 img: docs.png
-thumbnail: docs.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: 'Teste Teste Teste'
+language: Shell
+star: 0
+commits: 0
+fork: 41 
+issues: 0
 
 ---

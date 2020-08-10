@@ -3,15 +3,11 @@ type: project
 title: ACBR
 subtitle: Mirror não oficial do Projeto ACBr
 link: https://github.com/ControlSoft-Labs/ACBr
-layout: default
-modal-id: 1
-date: 2014-07-18
 img: acbr.png
-thumbnail: acbr.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: 'Teste teste teste teste'
+language: Pascal
+star: 0
+commits: 0
+fork: 6 
+issues: 0
 
 ---

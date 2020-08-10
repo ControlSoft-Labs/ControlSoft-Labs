@@ -3,14 +3,10 @@ type: project
 title: Firebird
 subtitle: Firebird server, client and tools
 link: https://github.com/ControlSoft-Labs/firebird
-layout: default
-modal-id: 6
 img: firebird.png
-thumbnail: firebird.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Conector
-description: 'perferendis doloribus asperiores repellat .'
+star: 0
+commits: 0
+fork: 117
+issues: 0
 
 ---

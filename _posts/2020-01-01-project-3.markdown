@@ -3,15 +3,11 @@ type: project
 title: Boss
 subtitle: Dependency Manager for Delphi
 link: https://github.com/ControlSoft-Labs/boss
-layout: default
-modal-id: 3
-date: 2014-07-16
 img: firebird.png
-thumbnail: firebird.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: 'Teste teste teste'
+language: Go
+star: 0
+commits: 0
+fork: 23 
+issues: 0
 
 ---

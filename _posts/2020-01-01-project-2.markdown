@@ -3,15 +3,11 @@ type: project
 title: Programacao Funcional
 subtitle: Exemplo de programação funcional e Delphi
 link: https://github.com/ControlSoft-Labs/ProgramacaoFuncional
-layout: default
-modal-id: 2
-date: 2014-07-17
 img: docker.png
-thumbnail: docker.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: 'Teste Teste Teste '
+language: Pascal
+star: 0
+commits: 0
+fork: 1 
+issues: 0
 
 ---
