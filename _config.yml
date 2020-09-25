@@ -13,10 +13,6 @@ people:
   pic: deva
   position: Qualidade
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: stack-overflow
       url: #
 
@@ -24,10 +20,6 @@ people:
   pic: anderson_campos
   position: Desenvolvedor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/AndersondaCampo
 
@@ -35,10 +27,6 @@ people:
   pic: athaua_machado
   position: Desenvolvedor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/Athaua
 
@@ -46,10 +34,6 @@ people:
   pic: deva
   position: Qualidade
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: stack-overflow
       url: #
 
@@ -57,10 +41,6 @@ people:
   pic: dev
   position: Qualidade
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: stack-overflow
       url: #
 
@@ -68,10 +48,6 @@ people:
   pic: erica_jadoski
   position: Desenvolvedora
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/ErikaPaulaJadoski
 
@@ -79,10 +55,6 @@ people:
   pic: everson_turrosi
   position: Desenvolvedor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/eversonturossi
 
@@ -90,10 +62,6 @@ people:
   pic: fabio_alecsandro
   position: Desenvolvedor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/FabioAlec
 
@@ -101,10 +69,6 @@ people:
   pic: lucinei_loch
   position: Desenvolvedor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/agrimindapps
 
@@ -112,10 +76,6 @@ people:
   pic: magno_ritzman
   position: Desenvolvedor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/magnoritzmann
 
@@ -123,10 +83,6 @@ people:
   pic: patrick_kamiski
   position: Desenvolvedor
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: github
       url: https://github.com/patrix
 
@@ -139,7 +95,7 @@ social:
   - title: instagram
     url: https://www.instagram.com/controlsoft/?hl=pt
   - title: github
-    url: http://labs.controlsoft.com.br/
+    url: https://github.com/ControlSoft-Labs
 
 # Postal address (add as many lines as necessary)
 address:

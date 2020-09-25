@@ -1,0 +1,12 @@
+---
+type: project
+title: Firebird Docker
+subtitle: Dockerfile to build a Firebird container
+link: https://github.com/ControlSoft-Labs/firebird-docker
+modal-id: 1
+img: docker.png
+language: Docker Image
+badge1: https://img.shields.io/docker/image-size/controlsoft/firebird?color=%231ed760
+badge2: https://img.shields.io/docker/pulls/controlsoft/firebird
+
+---

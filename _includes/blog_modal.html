@@ -12,22 +12,22 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
+                            <div class="modal-body" style="text-align:left;">
                                 <h2>{{ item.title }}</h2>
                                 <hr class="star-primary">
                                 <img src="../img/blog/{{ item.img }}" class="img-responsive img-centered" alt="{{ item.alt }}">
-                                <p style="white-space: pre-line; text-align: justify;">{{ item.description }}</p>
+                                <p style="white-space: pre-line;">{{ item.content }}</p>
                                 <ul class="list-inline item-details">
                                     <li>Dev:
-                                        <strong><a href="http://startbootstrap.com">{{ item.client }}</a>
+                                        <strong>{{ item.client }}
                                         </strong>
                                     </li>
                                     <li>Data:
-                                        <strong><a href="http://startbootstrap.com">{{ item.project-date }}</a>
+                                        <strong>{{ item.project-date }}
                                         </strong>
                                     </li>
                                     <li>Categoria:
-                                        <strong><a href="http://startbootstrap.com">{{ item.category }}</a>
+                                        <strong>{{ item.category }}
                                         </strong>
                                     </li>
                                 </ul>

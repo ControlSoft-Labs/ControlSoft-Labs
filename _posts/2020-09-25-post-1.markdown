@@ -19,15 +19,18 @@ Apesar de ser utilizado por alguns e criticado por outros nosso querido Firebird
 
 E nos dias atuais, nada impede de usarmos ele de forma diferente... Dentro de um container do docker por exemplo 😀
 
-É por isso que criamos uma imagem do Docker aqui na ControlSoft. Ajustada para atender às nossas necessidades, onde uma das principais é permitir a fácil criação e configuração do Firebird.
+
+
+É por isso que criamos uma imagem do Docker aqui na ControlSoft, ajustada para atender às nossas necessidades, onde uma das principais é permitir a fácil criação e configuração do Firebird.
+
+[https://hub.docker.com/r/controlsoft/firebird](https://hub.docker.com/r/controlsoft/firebird)
 
 # Requisitos
 
 Para utilizar o Firebird como container do Docker é muito simples.
 
 Em primeiro lugar, é necessário ter o Docker instalado.
-Caso não tenha, basta fazer o download através deste link.
-https://www.docker.com/products/docker-desktop
+Caso não tenha, basta fazer o download através [deste link](https://www.docker.com/products/docker-desktop)
 
 # Utilizando o Firebird no Docker
 
@@ -35,12 +38,14 @@ Feito isso, existem duas maneiras de criar um container no Docker
 
 ## docker run
 
-Um das formas é através do comando docker run
+Um das formas é através do comando **docker run**
+
+<img src="../img/blog/docker-run-firebird.png" class="img-responsive img-centered" alt="Firebird Docker">
 
 ## docker-compose
 
-Outra maneira é através do padrão docker-compose.
-Para isso basta criar um arquivo com o nome docker-compose.yml com o seguinte conteúdo:
+Outra maneira é através do padrão **docker-compose**.
+Para isso basta criar um arquivo com o nome **docker-compose.yml** com o seguinte conteúdo:
 ```
 version: "2"
 services:
@@ -57,37 +62,35 @@ services:
       - PASSWORD=masterkey
 ```
 
+E executar o comando `docker-compose up -d`
+
 Através deste arquivo definimos alguns parâmetros:
-### restart: always
-Informa ao Docker que o container deve iniciar junto com o sistema operacional
 
-### image: controlsoft/firebird
-A imagem oficial do Firebird da ControlSoft
+* **restart: always:** Informa ao Docker que o container deve iniciar junto com o sistema operacional
 
-### container_name: firebird
-Nome que o container vai receber, muito útil para parar, ver logs, entre outras ações.
+* **image: controlsoft/firebird:** A imagem oficial do Firebird da ControlSoft
 
-### ports
-Portas que serão utilizadas, que seguem o padrão PORTA DO HOST:PORTA INTERNA DO DOCKER.
-No caso, nosso Firebird utiliza sempre as portas 3050 internamente e a porta 3051 para eventos.
-Se quisermos que externamente nosso Firebird utilize a porta 1234 por exemplo, basta trocar para 1234:3050, por exemplo.
+* **container_name: firebird:** Nome que o container vai receber, muito útil para parar, ver logs, entre outras ações.
 
-Bônus: Se quisermos que nosso Firebird receba apenas conexões locais, basta trocar para 127.0.0.1:1234:3050
+* **ports:** Portas que serão utilizadas, que seguem o padrão PORTA DO HOST:PORTA INTERNA DO DOCKER. No caso, nosso Firebird utiliza sempre as portas **3050** internamente e a porta **3051** para eventos. Se quisermos que externamente nosso Firebird utilize a porta **1234** por exemplo, basta trocar para **1234:3050**, por exemplo.
+**Bônus:** Se quisermos que nosso Firebird receba apenas conexões locais, basta trocar para **127.0.0.1:1234:3050**
 
-### volumes
-Isso serve para mapearmos o diretório /databases do nosso container para um diretório do computador real, no nosso exemplo, estamos mapeando o diretório C:\Bases. O mesmo é válido também em ambientes Linux.
+* **volumes:** Isso serve para mapearmos o diretório **/databases** do nosso container para um diretório do computador real, no nosso exemplo, estamos mapeando o diretório **C:\Bases**. O mesmo é válido também em ambientes Linux.
 
 
-### environment
-Aqui são informadas as variáveis de ambiente. No caso temos a variável PASSWORD que serve para informarmos a senha do usuário SYSDBA. Caso não seja informada, será gerada uma senha aleatória de 10 caracteres, que ficará visível através do comando docker logs firebird.
+* **environment:** Aqui são informadas as variáveis de ambiente. No caso temos a variável **PASSWORD** que serve para informarmos a senha do usuário SYSDBA. Caso não seja informada, será gerada uma senha aleatória de 10 caracteres, que ficará visível através do comando docker logs firebird.
 
 # Conectando ao nosso Firebird
 
-Para conectar à uma base de dados do Firebird, basta adicionar o arquivo na pasta C:\Bases, e conectar utilizando /databases/nomedoarquivo.FDB.
+Para conectar à uma base de dados do Firebird, basta adicionar o arquivo na pasta **C:\Bases**, e conectar utilizando **/databases/nomedoarquivo.FDB**.
+
+<img src="../img/blog/firebird-dbeaver.png" class="img-responsive img-centered" alt="Exemplo de conexão" />
+
 Os demais dados de conexão são semelhantes a uma instalação real do Firebird.
 
 
 # Implementações futuras
+
 Em breve, pretendemos criar uma imagem da versão beta 4.0 do Firebird para realizar simulações.
 
 
