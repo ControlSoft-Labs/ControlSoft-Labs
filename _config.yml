@@ -37,13 +37,6 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Charles
-  pic: dev
-  position: Qualidade
-  social:
-    - title: stack-overflow
-      url: #
-
 - name: Érica
   pic: erica_jadoski
   position: Desenvolvedora
@@ -65,6 +58,13 @@ people:
     - title: github
       url: https://github.com/FabioAlec
 
+- name: Luan
+  pic: dev
+  position: Desenvolvedor
+  social:
+    - title: github
+      url: #
+      
 - name: Lucinei
   pic: lucinei_loch
   position: Desenvolvedor
